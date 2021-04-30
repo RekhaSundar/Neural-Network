@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import argparse
 import numpy as np
@@ -92,11 +90,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     filePath, learningRate, iterations = args.data, args.eta, args.iterations    #Reading the arguments
     sigmoid(filePath,learningRate,iterations)
-
-
-
-# In[ ]:
-
-
-
-
